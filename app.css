@@ -1,0 +1,331 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+   
+}
+
+/* ------------------------------- */
+/* home location */
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+
+    background-image: url('background_profil_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*  Change text "Welcome to Yuyang Hsieh Profolio" color  */
+#home h1 {
+    font-family: brandon-grotesque;
+    color: #ffffff; 
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+/* ------------------------------- */
+/* about location */
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+
+    background-image: url('pexels-padrinan-1111319.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    
+}
+
+#about h2{
+    font-family: brandon-grotesque;
+    color: #ffffff; 
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+/*.about-section class sets up a flex container to align the profile picture on the left and the text container on the right. */
+.about-section {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 50px; /* Space between profile picture and text container */
+}
+
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.profile-picture img {
+    width: 300px; /* Adjust size as needed */
+    height: 400px; /* Adjust size as needed */
+    object-fit: cover;
+    margin-right: 300px;
+}
+
+.profile-introduction {
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Make introduction take the remaining space */
+}
+
+.profile-introduction p {
+    font-family: Adobe Caslon;
+    color: #1a1a1a; 
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+
+/* ------------------------------- */
+/* Education location */
+#education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Project location */
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+/* contact location */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/* navigation (top) */
+nav {
+    
+    text-align: left;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;  
+
+    justify-content: space-between;
+
+    /* this will keep the drop down menu on the top of each page */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+
+/* ------------------------------- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Menu's style and color */
+.dropbtn {
+
+
+    background-color: transparent; /* Make button background transparent */
+    border: none; /* Remove button border */
+    padding: 0; /* Remove button padding */
+    cursor: pointer; /* Change cursor to pointer */
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* drown down list with three white bar */
+/* Change color to white */
+.dropbtn div {
+    width: 35px;
+    height: 4px;
+    background-color: white; 
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.dropdown:hover .dropbtn div {
+    background-color: #77728ea1; /* Optional: Change color when hovering */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* ------------------------------- */
+.social-icons {
+    
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons .icon-link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons .icon-link:hover {
+    color: #2431e3;
+}
+
+/* ------------------------------- */
+/* linkin icon */
+.icon-linkin {
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    background-color: #3db9fc;
+}
+
+.icon-linkin:hover {
+    transform: translateY(-10px);
+}
+
+/* ------------------------------- */
+/* GitHub icon */
+.icon-github {
+    color: #ffffff; 
+}
+
+.icon-github:hover{
+    transform: translateY(-10px);
+}
+
+/* ------------------------------- */
+/* facebook icon */
+.icon-facebook {
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; 
+    background-color: #2431e3;
+}
+
+.icon-facebook:hover {
+    transform: translateY(-10px);
+}
+
+/* ------------------------------- */
+/* instagram icon */
+.icon-instagram {
+    
+    color: #ffffff; 
+    background: radial-gradient(circle at 30% 110%, #ffdb8b 0%, #ee653d 25%, #d42e81 50%, #a237b6 75%, #3e57bc 100%);
+    border-radius: 37px;
+    box-shadow: 0px 15px 40px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s linear;
+}
+
+.icon-instagram:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+section {
+    padding: 20px;
+}
+
+
+
+
+/* Profile picture styling */
+.profile-picture {    
+    border: 5px solid white; /* Optional: Add a border to the profile picture */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for a more pronounced effect */
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
