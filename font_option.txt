@@ -1,0 +1,30 @@
+font-family: 'Arsenal', sans-serif;
+font-family: brandon-grotesque;
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Ga Maamli' rel='stylesheet'>
+font-family: 'Ga Maamli';
+
+<link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+font-family: 'Archivo Black';
+
+
+
+
+MIPS Processor Design
+Digital Design | January 2022 - May 2022
+
+Designed and implemented a 32-bit MIPS processor using Verilog.
+Developed a 5-stage pipelined architecture and supported key MIPS instructions.
+Integrated hazard detection and branch prediction mechanisms.
+Tools: Verilog, ModelSim, Xilinx Vivado.
+Synthesized and verified the design with testbenches, demonstrated functionality on FPGA.
+
+
+Prototroller – Senior Capstone
+Fall 2022 – Spring 2023
+
+Designed and implemented an RP2040 microcontroller PCB and embedded C firmware for low-latency HID communication.
+Collaborated in a team of five, focusing on iterative prototyping and user feedback.
+Delivered a functional modular controller and comprehensive production artifacts.
