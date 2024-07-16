@@ -256,6 +256,67 @@ header {
     margin-top: 10px; /* Adjust spacing as needed */
 }
 
+
+
+/* ------------------------------- */
+/* skills location */
+#skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+
+    background-image: url('8456327.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px; /* Add some padding at the top */
+}
+
+#skills h2{
+    font-family: brandon-grotesque;
+    color: #ffffff; 
+    text-align: center; /* Center align the text */
+    font-size: 48px; /* Adjust font size as needed */
+    margin-top: 0px; /* Adjust spacing as needed */
+}
+
+
+.skills-section {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: 10px auto;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%; /* Ensure it takes full available width */
+    padding-top: 10px; /* Adjust spacing as needed */
+}
+
+.skills-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.skills-item li{
+    color: #000000; 
+    text-align: left; /* Center align the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
 /* ------------------------------- */
 /* contact location */
 #contact {
